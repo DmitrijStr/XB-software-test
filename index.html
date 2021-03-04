@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Test XB Software</title>
+
+	<link rel='stylesheet' href="style/style.css"></link>
+	<link></link>
+	<script src='scripts/index.js' type="module" defer></script>
+</head>
+<body>
+	<div class="page">
+	</div>
+
+	<template id="tag-item-template" style='display: none;'>
+		<article class="tag-item">
+			<span class="tag-item__text">Текст</span>
+			<button class="tag-item__del">del</button>
+		</article>
+	</template>
+
+	<template id="tag-list-template" style='display: none;'>
+		<section class="tag-list">
+			<div class="tag-list__form"></div>
+			<div class="tag-list__container"></div>
+		</section>
+	</template>
+
+	<template id="tag-list-form-template">
+		<form class="tag-form">
+			<input class="tag-form__input" type='text' />
+			<button class="tag-from__submit" type="submit" >Save</button>
+		</form>
+	</template>
+</body>
+</html>
